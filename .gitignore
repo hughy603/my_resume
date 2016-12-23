@@ -64,3 +64,5 @@ resume/media/
 
 
 staticfiles/
+
+*.db

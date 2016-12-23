@@ -1,9 +1,9 @@
 from django.apps import AppConfig
 
 
-class UsersConfig(AppConfig):
-    name = 'resume.users'
-    verbose_name = "Users"
+class ResumeConfig(AppConfig):
+    name = 'resume.resume'
+    verbose_name = "Resume"
 
     def ready(self):
         """Override this to put in:
